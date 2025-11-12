@@ -1,3 +1,0 @@
-- i hid the "certificates" button to the navigation bar
-
-- i hid the link of the github repo of the portfolio website
