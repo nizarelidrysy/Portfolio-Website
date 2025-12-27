@@ -222,3 +222,117 @@ button {
 #customlogo-sebn:hover {
   color: cyan;
 }
+
+@media screen and (max-width: 768px) {
+  /* Navigation */
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .anchors-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .social-icons-container a img {
+     margin-right: 5px;
+     margin-left: 5px;
+  }
+
+  /* Header / Name */
+  .name-and-cvbutton-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+  }
+  #name {
+    margin: 20px 0;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .cvbutton {
+    font-size: 20px;
+  }
+  #brief {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  /* Typography & Layout General */
+  #hline {
+    margin-right: 20px;
+  }
+  #title {
+    font-size: 35px;
+  }
+  #subtitle {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  #description {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left; /* Or keep justify but ensure it looks good */
+  }
+
+  /* Grid Items (Tech Stack) */
+  #grid-container {
+    justify-content: center;
+    gap: 10px; /* Add some gap between items */
+  }
+  #grid-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    width: 45%; /* Allow approx 2 per row */
+    justify-content: center;
+  }
+  
+  /* Projects */
+  #DAMI3000-images {
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      padding-left: 0;
+      justify-content: center;
+      gap: 10px;
+  }
+  #DAMI3000-images img {
+      width: 45%; /* Two images per row */
+      max-width: 150px; 
+      height: auto;
+  }
+
+  /* Experience / Logos */
+  .flex-logos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+  .logo-sebn {
+      width: 60%; /* Smaller logo */
+      height: auto;
+      margin-left: 0;
+  }
+  .logo-seb {
+      height: 35px;
+      width: auto;
+  }
+  .giant-blinker {
+      display: none;
+  }
+}
