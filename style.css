@@ -109,12 +109,21 @@ a:hover {
   padding-left: 100px;
   padding-right: 100px;
 }
-#DAMI3000-images {
+#DAMI3000-images,
+#Ticketing-images {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 33px;
-  width: 200px;
-  height: 200px;
   gap: 30px;
+  margin-top: 20px;
+}
+
+#DAMI3000-images img,
+#Ticketing-images img {
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 .imgborder {
   border: 0.0001px dotted #00cc33;
@@ -302,7 +311,8 @@ button {
   }
   
   /* Projects */
-  #DAMI3000-images {
+  #DAMI3000-images,
+  #Ticketing-images {
       flex-wrap: wrap;
       width: 100%;
       height: auto;
@@ -310,9 +320,10 @@ button {
       justify-content: center;
       gap: 10px;
   }
-  #DAMI3000-images img {
+  #DAMI3000-images img,
+  #Ticketing-images img {
       width: 45%; /* Two images per row */
-      max-width: 150px; 
+      max-width: 200px; 
       height: auto;
   }
 
