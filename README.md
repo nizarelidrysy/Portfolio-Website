@@ -38,6 +38,12 @@ Since this is a client-side (front-end only) project, you can view it easily wit
 
 ---
 
-## 🤝 Contribution
+## 📄 License
 
-This project is open-source, and open for contribution.
+This project is open-source and open for contribution.
+
+---
+
+<div align="center">
+  <p>Built with ❤️ by Nizar EL IDRYSY.</p>
+</div>
