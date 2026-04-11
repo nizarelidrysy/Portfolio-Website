@@ -1,4 +1,4 @@
-# 💻 Nizar El Idrysy's Portfolio: The Terminal Interface
+# Nizar El Idrysy's Portfolio: The Terminal Interface
 
 **A personalized, dynamic portfolio page designed with a distinctive cyberpunk/hacker aesthetic.**
 
@@ -6,7 +6,7 @@ This project showcases academic background, professional experience, and technic
 
 ---
 
-## ✨ Features
+## Features
 
 * **Matrix Rain Background:** A full-screen HTML Canvas driven by JavaScript, displaying a classic "Matrix" digital rain effect.
 * **Terminal Aesthetic:** Utilizes custom fonts (**Bitcount** and **Anonymous Pro**) and a dark theme to fully immerse the user in a command-line interface experience.
@@ -16,7 +16,7 @@ This project showcases academic background, professional experience, and technic
 
 ---
 
-## ⚙️ Technology Stack
+## Technology Stack
 
 * **HTML5:** Provides the core structure and content.
 * **Custom CSS (`style.css`):** Extensive custom styling for the unique dark mode, text effects, and layout. No heavy frameworks are used for styling.
@@ -24,7 +24,7 @@ This project showcases academic background, professional experience, and technic
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Since this is a client-side (front-end only) project, you can view it easily without any complex server setup.
 
